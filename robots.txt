@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://atmosferanails.sk/sitemap.xml
+Sitemap: https://vitaliifisenko95.github.io/atmosfera/sitemap.xml
