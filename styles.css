@@ -98,6 +98,7 @@ header{
   letter-spacing:.08em;text-transform:uppercase;
   padding:13px 24px;border-radius:999px;
   border:2px solid var(--gold);
+  white-space:nowrap;
   box-shadow:0 6px 18px rgba(217,164,65,.38);
   transition:transform .15s ease, box-shadow .15s ease, filter .15s ease;
   cursor:pointer;
