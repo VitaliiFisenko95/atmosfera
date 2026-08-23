@@ -242,19 +242,6 @@ h2{
 .price-note{margin-top:26px;display:flex;gap:16px;align-items:center;flex-wrap:wrap}
 .price-note p{font-size:14.5px;max-width:46ch}
 
-/* ---------- podology ---------- */
-.split{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center}
-.split p{margin-top:16px;color:var(--ink-soft)}
-.bubble{
-  background:var(--paper);border-radius:var(--radius);
-  padding:30px;box-shadow:0 8px 30px rgba(24,19,16,.08);
-  font-size:15.5px;
-}
-.bubble ul{list-style:none}
-.bubble li{padding:10px 0;border-bottom:1px dashed rgba(24,19,16,.15);display:flex;justify-content:space-between;gap:12px}
-.bubble li:last-child{border-bottom:0}
-.bubble li b{white-space:nowrap}
-
 /* ---------- team / languages ---------- */
 .team-row{display:flex;gap:14px;flex-wrap:wrap;margin-top:26px}
 .tm-chip{
@@ -363,7 +350,6 @@ footer{background:var(--ink);color:#fff;padding:54px 0 40px}
 
 /* ---- phones & small tablets: collapse nav, show hamburger + sticky CTA ---- */
 @media(max-width:860px){
-  .split{grid-template-columns:1fr}
   .nav-links{
     display:none;
     position:absolute;top:68px;left:0;right:0;
@@ -391,7 +377,6 @@ footer{background:var(--ink);color:#fff;padding:54px 0 40px}
   .card{padding:24px 20px}
   .price-card{padding:24px 20px}
   .contact-card{padding:26px 22px}
-  .bubble{padding:24px 20px}
   .langs{padding:22px 22px}
   .ua-note{padding:20px 20px}
   .rate-card .num{font-size:46px}
